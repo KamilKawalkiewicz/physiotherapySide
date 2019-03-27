@@ -1,0 +1,73 @@
+.articleList{
+    display: flex;
+    flex-direction: column;
+}
+
+.articleList h3 {
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+    font-size: 25px;
+    letter-spacing: 1.8px;
+}
+.articleList li{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    line-height: 1.4;
+}
+.articleList li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer
+}
+@media (min-width: 768px) and (min-height:783px){
+    .articleList h3{
+        font-size: 30px
+    }
+}
+@media (min-width: 768px) and (min-height:1024px){
+    .articleList h3{
+        font-size: 35px
+    }
+}
+
+
+/* landspace */
+@media (min-width: 533px) and (orientation: landscape){
+    
+    .articleList ul{
+        margin: 0px 0 25px 0
+    }
+}
+
+/* Deskop */
+
+@media (min-width: 1366px) and (min-height: 768px) {
+    .articleList h3{
+        font-size: 35px
+    }
+    .articleList ul{
+        margin: 0px 0 25px 0
+    }
+}
+@media (min-width: 1440px){
+    .articleList h3{
+        font-size: 40px
+    }
+    
+}
+@media (min-width: 1920px) and (min-height: 1024px){
+    .articleList ul{
+        margin: 0px 0 25px 0
+    }
+    .articleList h3{
+        font-size: 50px
+    }
+}
+@media (min-width: 1930px) and (min-height:1024px){
+    .articleList ul{
+        margin: 0px 0 40px 0
+    }
+    .articleList h3{
+        font-size: 110px
+    }
+}

@@ -1,0 +1,76 @@
+footer{
+    text-align: center;
+    line-height: 10vh;
+    font-size: 16px;
+    background: black;
+    color: white
+}
+@media (min-width: 768px) and (min-height:783px){
+    footer{
+        font-size: 22px;
+        }
+}
+@media (min-width: 768px) and (min-height:1024px){
+    footer{
+    font-size: 25px;
+    }
+}
+
+
+/* landspace */
+@media (min-width: 533px) and (orientation: landscape){
+    footer{
+        font-size: 15px;
+        line-height: 15vh;
+        }
+}
+@media (min-width: 1366px) and (orientation: landscape){
+    footer{
+        font-size: 20px;
+        line-height: 10vh;
+        }
+}
+
+/* Deskop */
+
+@media (min-width: 1024px) and (min-height: 768px){
+    footer{
+        font-size: 25px;
+        line-height: 10vh;
+        }
+}
+@media (min-width: 1280px) and (min-height: 1024px){
+    footer{
+        font-size: 25px;
+        line-height: 10vh;
+        }
+}
+@media (min-width: 1366px){
+    footer{
+        font-size: 20px;
+        }
+}
+@media (min-width: 1536px) and (min-height: 864px){
+    footer{
+        font-size: 25px;
+        line-height: 12vh;
+        }
+}
+@media (min-width: 1920px){
+    footer{
+        font-size: 25px;
+        line-height: 15vh;
+        }
+} 
+@media (min-width: 1920px) and (min-height: 1024px){
+    footer{
+        font-size: 30px;
+        line-height: 12vh;
+        }
+}
+@media (min-width: 1930px) and (min-height:1024px){
+    footer{
+        font-size: 80px;
+        line-height: 8vh;
+        }
+}

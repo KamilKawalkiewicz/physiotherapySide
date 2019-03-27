@@ -1,0 +1,214 @@
+.burger {
+    position: fixed;
+    top: 8px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+    z-index: 2;
+    cursor: pointer;  
+  }
+  .burger span {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background: black;
+    left: 0;
+    transition: top 0.3s 0.2s, bottom 0.3s 0.2s, opacity 0.3s, transform 0.3s 0.3s;
+    cursor: pointer;
+  }
+  .burger span:nth-child(1) {
+    top: 5px;
+  }
+  .burger.active span:nth-child(1) {
+    top: calc(50% - 5px);
+    transform: rotate(180deg);
+  }
+  
+  .burger span:nth-child(2) {
+    top: calc(50% - 3px);
+  }
+  
+  .burger.active span:nth-child(2) {
+    transform: rotate(180deg);
+    top: calc(50% - 5px);
+  }
+  .burger span:nth-child(3) {
+    bottom: 5px;
+  }
+  .burger.active span:nth-child(3) {
+    bottom: calc(50% - 3px);
+    transform: rotate(180deg);
+  }
+  .navAccesOff{
+    
+    display: none;   
+  }
+
+  .navAccesOnn{
+    animation: navAnimOnn .4s linear;
+    display: block;
+  }
+
+@keyframes navAnimOnn{
+0%{
+  opacity: 0
+}
+50%{
+  opacity: .5
+}
+100%{
+  opacity: 1;
+  transform: translatey(100vh)
+}
+}
+  .navigation{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index:1;
+  }
+.navigation a{
+  font-family: 'Montserrat', sans-serif;
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: white;
+}
+.navigation a.active{
+  color: grey;
+  text-decoration-line: underline;
+  text-decoration-color: grey;
+}
+.navigation a:nth-child(1), .navigation a:nth-child(2),.navigation a:nth-child(3){
+  border-bottom: 2px solid black
+}
+@media (min-width: 768px) and (min-height:783px){
+  .burger {
+    top: 12px;
+    right: 17px;
+    width: 45px;
+    height: 45px;
+  }
+  .navigation a{
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (min-height:1024px){
+  .burger {
+    top: 12px;
+    right: 17px;
+    width: 50px;
+    height: 50px;
+  }
+  .navigation a{
+    font-size: 30px;
+  }
+}
+
+/* Deskop */
+ /* Deskop Menu */
+@media (min-width: 1024px) and (min-height: 768px){
+   
+.burger {
+    display: none;
+  }
+  .navAccesOff{
+    display: block
+  }
+  .navAccesOnn{
+    display: block
+  }
+nav.navigation{
+    position: fixed;
+    width: 100vw; 
+    height: 10vh;
+    line-height: 10vh;
+    z-index:1;
+    background: rgb(202, 196, 196);
+  opacity: .5;  
+    overflow: hidden;
+  }
+.navigation a{
+  width: 25vw;
+  height: 10vh;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  text-transform: uppercase;
+}
+.navigation a:nth-child(1), .navigation a:nth-child(2),.navigation a:nth-child(3){
+  border-bottom: none
+}
+.navigation a.active{
+  color: grey;
+  text-decoration-line: underline;
+  text-decoration-color: black
+}
+
+.navigation a:hover{
+  color:white;
+  background:black;
+  transition: .4s 
+} 
+}
+@media (min-width: 1440px) and (min-height: 900px){
+  .navigation a{
+    height: 8vh;
+    font-size: 25px;
+  }
+  nav.navigation{
+    height: 8vh;
+    line-height: 8vh;
+  }
+}
+@media (min-width: 1920px) and (min-height:1024px){
+  .navigation a{
+    height: 11vh;
+    font-size: 35px;
+  }
+  nav.navigation{
+    height: 11vh;
+    line-height: 11vh;
+  }
+}
+@media (min-width: 1536px) and (min-height: 864px){
+  .navigation a{
+    height: 10vh;
+    font-size: 30px;
+  }
+  nav.navigation{
+    height: 10vh;
+    line-height: 10vh;
+  }
+}
+@media (min-width: 1920px) and (min-height:1024px){
+  .navigation a{
+    height: 11vh;
+    font-size: 35px;
+  }
+  nav.navigation{
+    height: 11vh;
+    line-height: 11vh;
+  }
+}
+@media (min-width: 1930px) and (min-height:1024px){
+  .navigation a{
+    height: 8vh;
+    font-size: 70px;
+  }
+  nav.navigation{
+    height: 8vh;
+    line-height: 8vh;
+  }
+}
+

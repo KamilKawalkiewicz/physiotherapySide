@@ -1,0 +1,223 @@
+.article img {
+    position:  relative;
+    display: block;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    margin: 40px 0 
+}
+.article h2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 25px;
+    letter-spacing: 1.8px;
+}
+.article h3 {
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.2px;
+}
+.article p {
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4
+}
+.article q {
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4
+}
+.article ul{
+    margin: 20px
+}
+.article li{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4
+}
+
+.return {
+    display: flex;
+    font-size: 20px;
+    transform: translateX(30%);
+    text-decoration: none;
+    color: black;
+    line-height: 60px
+    
+}
+.return i.fas{
+    margin: 20px 5px;
+    cursor: pointer
+}
+@media (min-width: 768px) and (min-height:783px){
+    .article img {
+        width: 50%;
+    }
+    article h2{
+        font-size: 35px;
+    }
+    .return {
+        font-size: 25px;
+        transform: translateX(35%);
+    }
+}
+@media (min-width: 768px) and (min-height:1024px){
+    .article img {
+        width: 60%;
+    }
+    .article h2{
+        font-size: 35px;
+        
+    }
+    .return {
+        font-size: 30px;
+        transform: translateX(30%);
+    }
+    .return i.fas{
+        transform: scale(1.2);
+        transform: translateY(-2px)
+    }   
+}
+
+
+/* landspace */
+@media (min-width: 533px) and (orientation: landscape){
+    .article img {
+        width: 50%;
+    }
+    article h2{
+        font-size: 35px;
+    }
+    .return {
+        font-size: 20px;
+        transform: translateX(35%);
+    }
+}
+@media (min-width: 568px) and (orientation: landscape){
+    .article img {
+        width: 40%;
+    }
+}
+@media (min-width: 667px) and (orientation: landscape){
+    .return {
+        transform: translateX(35%);
+        font-size: 25px;
+    }
+}
+@media (min-width: 731px) and (orientation: landscape){
+    .article img {
+        width: 40%;
+    }
+    .return {
+        font-size: 20px;
+        transform: translateX(40%);
+    }
+}
+@media (min-width: 812px) and (orientation: landscape){
+    .article img {
+        width: 30%;
+    }
+}
+@media (min-width: 1366px) and (orientation: landscape){
+    .return {
+        font-size: 30px;
+        transform: translateX(43%);
+    }
+    .article img {
+        width: 35%;
+    }
+}
+
+/* Deskop */
+
+@media (min-width: 1024px) and (min-height: 768px){
+    .article h2{
+        font-size: 45px; 
+    }
+    .article img {
+        width: 35%;
+        transform: translate(-50%, 0);      
+    }
+    .return {
+        font-size: 30px;
+        transform: translateX(38%);
+    }
+}
+@media (min-width: 1280px) and (min-height: 1024px){
+    .article img {
+        width: 40%;
+    }
+    .return {
+        font-size: 35px;
+        transform: translateX(41%);
+    }
+}
+@media (min-width: 1366px) and (min-height: 768px){
+    .article img {
+        width: 30%;     
+    }
+    .return {
+        font-size: 30px;
+        transform: translateX(41%);
+    }
+}
+
+@media (min-width: 1440px) and (min-height: 900px){
+    
+    .article img {
+        width: 30%;
+        transform: translate(-50%, 0);      
+    }
+    .return {
+        font-size: 25px;
+        transform: translateX(42%);
+    }
+    .article{
+        width: 90%;
+        margin: 0 auto
+    }
+}
+@media (min-width: 1536px) and (min-height: 864px){
+    .return {
+        font-size: 30px;
+        transform: translateX(42%);
+    }
+}
+ @media (min-width: 1920px){
+    .article{
+        width: 90%;
+        margin: 0 auto
+    }
+    .return {
+        font-size: 30px;
+        transform: translateX(42%);
+    }
+}
+@media (min-width: 1920px) and (min-height: 1024px){
+    .article{
+        width: 90%;
+        margin: 0 auto
+    }
+    .article img {
+        width: 35%;      
+    }
+    .return {
+        font-size: 35px;
+        transform: translateX(43%);
+    }
+}
+@media (min-width: 1930px) and (min-height:1024px){
+    .article h2{
+        font-size: 110px; 
+    }
+    .article img {
+        width: 25%;      
+    }
+    .return {
+        font-size: 90px;
+        margin: 40px 0 40px 0;
+        transform: translateX(44%);
+    }
+}

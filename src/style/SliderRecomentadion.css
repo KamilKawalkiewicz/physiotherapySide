@@ -1,0 +1,285 @@
+.slider-recomendation{
+    position: relative;
+    height: 95vh;
+    overflow-y:hidden;
+    background: white;
+    color: black;
+    }
+    .card-slider-wrapper-recomendation{
+        display: flex;
+        height: 100%;
+        position: absolute;
+        transition: transform 400ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    }
+    .frame-recomendation {
+        position: relative;
+        width: 100vw;
+        border: .5px dashed rgb(219, 215, 215);
+        background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    }
+    .frame-recomendation img {
+        display: block;
+        height: 20vh;
+        width: 20vh;
+        margin: 40px auto 10px auto ;
+        border-radius: 60%;
+    }
+    .frame-recomendation h1 {
+    font-family: 'Oswald', sans-serif;
+    text-decoration-line: underline;
+    margin: 20px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    } 
+    .frame-recomendation h3{
+        margin: 10px;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1.2px;
+    }
+    .frame-recomendation q{
+        display: block;
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 1.5
+    }
+
+    /* @media */
+
+    @media (min-width: 320px) and (min-height:568px){
+        .slider-recomendation{
+            height: 90vh    
+        }
+    }
+    @media (min-width: 320px) and (min-height:783px){
+        .slider-recomendation{
+            height: 70vh    
+        }
+    }
+    @media (min-width: 360px) and (min-height:640px){
+        .slider-recomendation{
+            height:71vh    
+        }
+    }
+    @media (min-width: 375px) and (min-height:667px){
+        .slider-recomendation{
+            height: 90vh    
+        }
+    }
+    @media (min-width: 375px) and (min-height:783px){
+        .slider-recomendation{
+            height: 80vh    
+        }
+    }
+    @media (min-width: 411px) and (min-height:731px){
+        .slider-recomendation{
+            height: 80vh    
+        }
+    }
+    @media (min-width: 768px) and (min-height:783px){
+        .slider-recomendation{
+            height: 80vh ;   
+        }
+        .frame-recomendation {
+            width: 50vw;
+        }
+    }
+    @media (min-width: 768px) and (min-height:1024px){
+        .slider-recomendation{
+            height: 65vh    
+        }
+        .frame-recomendation {
+            width: 50vw;
+        }
+        .frame-recomendation h3{
+            font-size: 25px
+        }
+        .frame-recomendation q{
+            font-size: 20px
+        }
+    }
+
+
+    /* landspace */
+@media (min-width: 533px) and (orientation: landscape){
+    .slider-recomendation{
+        height: 120vh    
+    }
+    .frame-recomendation {
+        width: 100vw;
+    }
+    .frame-recomendation h3{
+        font-size: 18px
+    }
+    .frame-recomendation q{
+        font-size: 15px
+    }
+    .frame-recomendation img {
+        height: 35vh;
+        width: 35vh;
+    }
+}
+@media (min-width: 640px) and (orientation: landscape){
+    .slider-recomendation{
+        height: 100vh    
+    }
+}
+@media (min-width: 731px) and (orientation: landscape){
+    .frame-recomendation {
+        width: 50vw;
+    }
+    .frame-recomendation img {
+        height: 30vh;
+        width: 30vh;
+    }
+}
+@media (min-width: 812px) and (orientation: landscape){
+    .frame-recomendation {
+        width: 50vw;
+    }
+    .slider-recomendation{
+        height: 110vh    
+    }
+}
+@media (min-width: 1024px) and (orientation: landscape){
+    .frame-recomendation {
+        width: 50vw;
+    }
+    .slider-recomendation{
+        height: 70vh    
+    }
+}
+@media (min-width: 1366px) and (orientation: landscape){
+    .frame-recomendation h3{
+        font-size: 24px
+    }
+    .frame-recomendation q{
+        font-size: 20px
+    }
+    .frame-recomendation img {
+        height: 20vh;
+        width: 20vh;
+    }
+    .frame-recomendation {
+        width: 30vw;
+    }
+    .slider-recomendation{
+        height: 70vh;   
+        width: 91%;
+        margin: 0 auto    
+    }
+}
+
+    /* Deskop */
+    
+    @media (min-width: 1024px) and (min-height: 768px){
+        .slider-recomendation{
+            height: 75vh    
+        }
+        .frame-recomendation h3{
+            font-size: 25px
+        }
+        .frame-recomendation q{
+            font-size: 22px
+        }
+        .frame-recomendation img {
+            height: 20vh;
+            width: 20vh;
+        }
+    }
+    @media (min-width: 1280px) and (min-height: 1024px){
+        .frame-recomendation img {
+            height: 20vh;
+            width: 20vh;
+        }
+        .slider-recomendation{
+            height: 80vh    
+        }
+    }
+    @media (min-width: 1366px) and (min-height: 768px){
+        .slider-recomendation{
+            height: 95vh    
+        }
+        .frame-recomendation h3{
+            font-size: 28px
+        }
+        .frame-recomendation q{
+            font-size: 25px
+        }
+        .frame-recomendation {
+            width: 30.5vw;
+        }
+    }
+    @media (min-width: 1440px) and (min-height: 900px) {
+        .slider-recomendation{
+            height: 85vh;   
+            width: 91%;
+            margin: 0 auto    
+        }
+        .frame-recomendation h3{
+            font-size: 28px
+        }
+        .frame-recomendation q{
+            font-size: 25px
+        }
+        .frame-recomendation {
+            width: 30vw;
+        }
+    }
+    @media (min-width: 1536px) and (min-height: 864px){
+        .slider-recomendation{
+            height: 95vh;   
+            width: 91%;
+            margin: 0 auto    
+        }
+        .frame-recomendation h3{
+            font-size: 30px
+        }
+        .frame-recomendation q{
+            font-size: 28px
+        }
+        .frame-recomendation {
+            width: 30vw;
+        }
+    }
+    @media (min-width: 1920px) and (min-height:1024px){
+        .slider-recomendation{
+            height: 80vh;
+            width: 92%;
+            margin: 0 auto    
+        }
+        .frame-recomendation h3{
+            font-size: 30px
+        }
+        .frame-recomendation q{
+            font-size: 28px
+        }
+        .frame-recomendation {
+            width: 30.5vw;
+        }
+        .frame-recomendation img {
+            height: 22vh;
+            width: 22vh;
+        }
+    }
+    @media (min-width: 1930px) and (min-height:1024px){
+        .slider-recomendation{
+            height: 60vh;
+            width: 92.5%;
+            margin: 0 auto    
+        }
+        .frame-recomendation h3{
+            font-size: 90px
+        }
+        .frame-recomendation q{
+            font-size: 75px
+        }
+        .frame-recomendation {
+            width: 30.5vw;
+        }
+        .frame-recomendation img {
+            height: 17vh;
+            width: 17vh;
+        }
+      }

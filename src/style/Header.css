@@ -1,0 +1,257 @@
+.slider{
+position: relative;
+height: 40vh;
+overflow-y:hidden;
+overflow-x: hidden 
+}
+.card-slider-wrapper{
+    display: flex;
+    position: absolute;
+    transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.frame {
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+}
+.frame img {
+    height: 40vh;
+    width: 100vw;
+    /* animation: lupeImg 6s infinite linear */
+}
+/* @keyframes lupeImg{
+0%{
+    transform: scale(1)
+}
+5%{
+    transform: scale(1.0.1)
+}
+10%{
+    transform: scale(1.0.2)
+}
+15%{
+    transform: scale(1.0.3)
+}
+20%{
+    transform: scale(1.0.4)
+}
+25%{
+    transform: scale(1.0.5)
+}
+30%{
+    transform: scale(1.0.6)
+}
+35%{
+    transform: scale(1.0.7)
+}
+40%{
+    transform: scale(1.0.8)
+}
+45%{
+    transform: scale(1.0.9)
+}
+50%{
+    transform: scale(1.1)
+}
+55%{
+    transform: scale(1.1)
+}
+60%{
+    transform: scale(1.0.9)
+}
+65%{
+    transform: scale(1.0.8)
+}
+70%{
+    transform: scale(1.0.7)
+}
+75%{
+    transform: scale(1.0.6)
+}
+80%{
+    transform: scale(1.0.5)
+}
+85%{
+    transform: scale(1.0.4)
+}
+90%{
+    transform: scale(1.0.3)
+}
+95%{
+    transform: scale(1.0.2)
+}
+100%{
+    transform: scale(1.0.1) 
+}
+} */
+
+.frame h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px; 
+    line-height: 1.2;
+    letter-spacing: 1.6px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+} 
+.slick-dots{
+    transform: scale(2);
+    bottom: 12px
+}
+.slick-dots li {
+    width: 14px;
+}
+
+/* .slick-prev {
+    left: 10px;
+    transform: scale(1.5);
+    z-index: 1;
+}
+.slick-next {
+    right: 10px;
+    transform: scale(1.5);
+    z-index: 1;
+} */
+@media (min-width: 320px) and (min-height:783px){
+    .slider,.frame, .frame img{
+        height: 35vh;
+        }
+}
+@media (min-width: 375px) and (min-height:812px){
+    .slider,.frame, .frame img{
+        height: 35vh;
+        }
+}
+@media (min-width: 768px) and (min-height:783px){
+    .slider,.frame, .frame img{
+        height: 40vh;
+        }
+        .frame h1{
+            font-size: 25px; 
+        }
+}
+@media (min-width: 768px) and (min-height:1024px){
+    .frame h1{
+        font-size: 25px; 
+    }
+    .slider,.frame, .frame img{
+        height: 35vh;
+        }
+        .slick-dots{
+            transform: scale(3);
+            bottom: 25px
+        }
+}
+
+
+    /* landspace */
+    @media (min-width: 533px) and (orientation: landscape){
+        .slider,.frame, .frame img{
+            height: 70vh;
+            }
+            .frame h1{
+                font-size: 20px; 
+            }
+    }
+    @media (min-width: 640px) and (orientation: landscape){
+        .slider,.frame, .frame img{
+            height: 80vh;
+            }
+    }
+    @media (min-width: 812px) and (orientation: landscape){
+        .slider,.frame, .frame img{
+            height: 90vh;
+            }
+    }
+    @media (min-width: 823px) and (orientation: landscape){
+        .slider,.frame, .frame img{
+            height: 90vh;
+            }
+    }
+    @media (min-width: 1366px) and (orientation: landscape){
+        .frame h1{
+            font-size: 35px; 
+        }
+    }
+    /* Deskop */
+
+@media (min-width: 1024px) and (min-height: 768px){
+    .slider,.frame, .frame img{
+        height: 70vh;
+        }
+        .frame h1{
+            font-size: 28px; 
+        }
+        .slick-dots{
+            transform: scale(3);
+            bottom: 25px
+        }
+}
+
+@media (min-width: 1280px) and (min-height: 1024px){
+    .frame h1{
+        font-size: 35px; 
+    }
+}
+@media (min-width: 1366px) and (min-height: 768px){
+    .slider,.frame, .frame img{
+        height: 70vh;
+        width: 95%;
+        margin: 0 auto
+        }
+        .frame h1{
+            font-size: 40px; 
+        }
+        .slick-dots{
+            transform: scale(3);
+            bottom: 25px
+        }
+}
+@media (min-width: 1440px) and (min-height: 900px){
+    .slider,.frame, .frame img{
+        height: 90vh;
+        width: 95%;
+        margin: 0 auto
+        }
+        .frame h1{
+            font-size: 40px; 
+        }
+        .slick-dots{
+            transform: scale(3);
+            bottom: 25px
+        }   
+}
+@media (min-width: 1920px) and (min-height: 1024px) {
+    .slider,.frame, .frame img{
+        height: 90vh;
+        width: 100%;
+        margin: 0 auto
+        }
+        .frame h1{
+            font-size: 45px; 
+        }
+        .slick-dots{
+            transform: scale(4);
+            bottom: 35px
+        }
+}
+@media (min-width: 1930px) and (min-height:1024px){
+    .slider,.frame, .frame img{
+        height: 70vh;
+        width: 95%;
+        margin: 0 auto
+        }
+        .frame h1{
+            font-size: 100px; 
+        }
+        .slick-dots{
+            transform: scale(4);
+            bottom: 50px;
+           
+        }
+        .slick-dots li{
+            width: 50px;
+        }
+}

@@ -1,0 +1,115 @@
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+/* :root{
+    --colorWhite: white;
+    --colorContainer: rgb(255, 251, 234);
+    
+} */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+header{
+    min-height: 40vh;
+    
+}
+main{
+    flex-grow:1;
+    
+}
+footer{
+    min-height: 5vh;
+}
+
+@media (min-width: 375px){
+    h3{
+        font-size: 25px
+    }
+     p,li,q{
+        font-size: 20px
+    }
+    
+}
+@media (min-width: 411px)  {
+    h3{
+        font-size: 20px
+    }
+     p,li,q{
+        font-size: 18px
+    }
+    
+   
+@media (min-width: 768px){
+    h3{
+        font-size: 30px
+    }
+     p,li,q{
+        font-size: 25px
+    }
+}
+
+}
+
+/* landspace */
+
+@media (min-width: 667px) and (orientation: landscape){
+    h3{
+        font-size: 22px
+    }
+     p,li,q{
+        font-size: 16px
+    }
+}
+/* Deskop */
+@media (min-width: 1024px) and (min-height: 768px) {
+    h3{
+        font-size: 30px
+    }
+     p,li,q{
+        font-size: 25px
+    }
+}
+
+@media (min-width: 1366px) and (min-height: 768px){
+    h3{
+        font-size: 30px
+    }
+     p,li,q{
+        font-size: 25px
+    }
+}
+@media (min-width: 1536px) and (min-height: 864px){
+    h3{
+        font-size: 35px
+    }
+     p,li,q{
+        font-size: 30px
+    }
+}
+@media (min-width: 1920px) and (min-height: 1024px) {
+    h3{
+        font-size: 40px
+    }
+     p,li,q{
+        font-size: 35px
+    }
+}
+@media (min-width: 1930px) and (min-height:1024px){
+    h3{
+        font-size: 90px
+    }
+     p,li,q{
+        font-size: 80px
+    }
+}
