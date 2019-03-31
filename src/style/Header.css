@@ -17,73 +17,7 @@ overflow-x: hidden
 .frame img {
     height: 40vh;
     width: 100vw;
-    /* animation: lupeImg 6s infinite linear */
 }
-/* @keyframes lupeImg{
-0%{
-    transform: scale(1)
-}
-5%{
-    transform: scale(1.0.1)
-}
-10%{
-    transform: scale(1.0.2)
-}
-15%{
-    transform: scale(1.0.3)
-}
-20%{
-    transform: scale(1.0.4)
-}
-25%{
-    transform: scale(1.0.5)
-}
-30%{
-    transform: scale(1.0.6)
-}
-35%{
-    transform: scale(1.0.7)
-}
-40%{
-    transform: scale(1.0.8)
-}
-45%{
-    transform: scale(1.0.9)
-}
-50%{
-    transform: scale(1.1)
-}
-55%{
-    transform: scale(1.1)
-}
-60%{
-    transform: scale(1.0.9)
-}
-65%{
-    transform: scale(1.0.8)
-}
-70%{
-    transform: scale(1.0.7)
-}
-75%{
-    transform: scale(1.0.6)
-}
-80%{
-    transform: scale(1.0.5)
-}
-85%{
-    transform: scale(1.0.4)
-}
-90%{
-    transform: scale(1.0.3)
-}
-95%{
-    transform: scale(1.0.2)
-}
-100%{
-    transform: scale(1.0.1) 
-}
-} */
 
 .frame h1 {
     position: absolute;
@@ -104,16 +38,6 @@ overflow-x: hidden
     width: 14px;
 }
 
-/* .slick-prev {
-    left: 10px;
-    transform: scale(1.5);
-    z-index: 1;
-}
-.slick-next {
-    right: 10px;
-    transform: scale(1.5);
-    z-index: 1;
-} */
 @media (min-width: 320px) and (min-height:783px){
     .slider,.frame, .frame img{
         height: 35vh;
@@ -145,7 +69,6 @@ overflow-x: hidden
         }
 }
 
-
     /* landspace */
     @media (min-width: 533px) and (orientation: landscape){
         .slider,.frame, .frame img{
@@ -175,6 +98,7 @@ overflow-x: hidden
             font-size: 35px; 
         }
     }
+
     /* Deskop */
 
 @media (min-width: 1024px) and (min-height: 768px){
@@ -189,7 +113,6 @@ overflow-x: hidden
             bottom: 25px
         }
 }
-
 @media (min-width: 1280px) and (min-height: 1024px){
     .frame h1{
         font-size: 35px; 
