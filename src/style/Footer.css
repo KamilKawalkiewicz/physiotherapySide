@@ -62,13 +62,13 @@ footer{
         line-height: 15vh;
         }
 } 
-@media (min-width: 1920px) and (min-height: 1024px){
+@media (min-width: 1920px) and (min-height: 1080px){
     footer{
         font-size: 30px;
         line-height: 12vh;
         }
 }
-@media (min-width: 1930px) and (min-height:1024px){
+@media (min-width: 1930px) and (min-height:1080px){
     footer{
         font-size: 80px;
         line-height: 8vh;

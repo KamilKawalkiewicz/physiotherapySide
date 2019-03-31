@@ -130,8 +130,8 @@
 nav.navigation{
     position: fixed;
     width: 100vw; 
-    height: 10vh;
-    line-height: 10vh;
+    height: 8vh;
+    line-height: 8vh;
     z-index:1;
     background: rgb(202, 196, 196);
   opacity: .5;  
@@ -139,7 +139,7 @@ nav.navigation{
   }
 .navigation a{
   width: 25vw;
-  height: 10vh;
+  height: 8vh;
   display: inline-block;
   text-decoration: none;
   font-size: 22px;
@@ -171,16 +171,6 @@ nav.navigation{
     line-height: 8vh;
   }
 }
-@media (min-width: 1920px) and (min-height:1024px){
-  .navigation a{
-    height: 11vh;
-    font-size: 35px;
-  }
-  nav.navigation{
-    height: 11vh;
-    line-height: 11vh;
-  }
-}
 @media (min-width: 1536px) and (min-height: 864px){
   .navigation a{
     height: 10vh;
@@ -191,17 +181,17 @@ nav.navigation{
     line-height: 10vh;
   }
 }
-@media (min-width: 1920px) and (min-height:1024px){
+@media (min-width: 1920px) and (min-height:1080px){
   .navigation a{
-    height: 11vh;
+    height: 9vh;
     font-size: 35px;
   }
   nav.navigation{
-    height: 11vh;
-    line-height: 11vh;
+    height: 9vh;
+    line-height: 9vh;
   }
 }
-@media (min-width: 1930px) and (min-height:1024px){
+@media (min-width: 1930px) and (min-height:1080px){
   .navigation a{
     height: 8vh;
     font-size: 70px;

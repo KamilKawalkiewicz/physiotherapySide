@@ -390,15 +390,15 @@ iframe{
       font-size: 25px
     }
 }
-@media (min-width: 1920px) and (min-height: 1024px){
+@media (min-width: 1920px) and (min-height: 1080px){
   .contact h2{
-    font-size: 100px
+    font-size: 60px
       }
       .buttonForm{
         margin: 50px
       }
       .buttonForm p{
-        font-size: 70px
+        font-size: 40px
       }
   .form_element label{
     font-size: 35px
@@ -417,8 +417,13 @@ iframe{
 .btn button{
   font-size: 40px;
 }
+iframe{
+  width:60%;
+  height:700px;
+  border: none
 }
-@media (min-width: 1930px) and (min-height:1024px){
+}
+@media (min-width: 1930px) and (min-height:1080px){
   .form_element label{
     font-size: 90px
   }

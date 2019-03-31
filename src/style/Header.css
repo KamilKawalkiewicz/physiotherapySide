@@ -223,7 +223,7 @@ overflow-x: hidden
             bottom: 25px
         }   
 }
-@media (min-width: 1920px) and (min-height: 1024px) {
+@media (min-width: 1920px) and (min-height: 1080px) {
     .slider,.frame, .frame img{
         height: 90vh;
         width: 100%;
@@ -237,7 +237,7 @@ overflow-x: hidden
             bottom: 35px
         }
 }
-@media (min-width: 1930px) and (min-height:1024px){
+@media (min-width: 1930px) and (min-height:1080px){
     .slider,.frame, .frame img{
         height: 70vh;
         width: 95%;

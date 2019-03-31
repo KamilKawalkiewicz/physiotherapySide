@@ -377,7 +377,7 @@ letter-spacing:  1.5px;
         }
 }
 
-@media (min-width: 1920px) and (min-height:1024px){
+@media (min-width: 1920px) and (min-height:1080px){
     .panel-group{
         width: 90%;
         text-align: center;
@@ -401,7 +401,7 @@ letter-spacing:  1.5px;
         line-height: 65px;
         }
 }
-@media (min-width: 1930px) and (min-height:1024px){
+@media (min-width: 1930px) and (min-height:1080px){
     .panel-group  h1{
         font-size: 120px
     }

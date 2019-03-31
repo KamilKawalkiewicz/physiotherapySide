@@ -1,7 +1,7 @@
 .article img {
     position:  relative;
     display: block;
-    width: 90%;
+    width: 60%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -5%);
@@ -11,33 +11,35 @@
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     margin: 20px;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 1.8px;
 }
 .article h3 {
-    margin: 10px;
     font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin: 10px;
     letter-spacing: 1.2px;
 }
 .article p {
-    margin: 20px;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.4
+    margin: 20px 10px 20px 10px ;
+    line-height: 1.4;
+    text-align: left;
 }
 .article q {
-    margin: 20px;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.4
+    margin: 20px auto;
+    line-height: 1.4;
 }
 .article ul{
-    margin: 20px
+    margin: 20px;
+    text-align: left;
 }
 .article li{
     margin: 10px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.4
 }
-
 .return {
     display: flex;
     font-size: 20px;
@@ -45,7 +47,6 @@
     text-decoration: none;
     color: black;
     line-height: 60px
-    
 }
 .return i.fas{
     margin: 20px 5px;
@@ -65,15 +66,18 @@
 }
 @media (min-width: 768px) and (min-height:1024px){
     .article img {
-        width: 60%;
+        width: 50%;
     }
     .article h2{
         font-size: 35px;
         
     }
+    .article h3 {
+        font-size: 30px;
+    }
     .return {
         font-size: 30px;
-        transform: translateX(30%);
+        margin: 0 auto;
     }
     .return i.fas{
         transform: scale(1.2);
@@ -140,6 +144,9 @@
         width: 35%;
         transform: translate(-50%, 0);      
     }
+    .article h3 {
+        font-size: 35px;
+    }
     .return {
         font-size: 30px;
         transform: translateX(38%);
@@ -195,10 +202,14 @@
         transform: translateX(42%);
     }
 }
-@media (min-width: 1920px) and (min-height: 1024px){
+@media (min-width: 1920px) and (min-height: 1080px){
     .article{
         width: 90%;
-        margin: 0 auto
+        margin: 0 auto;
+        
+    }
+    .article h3 {
+        font-size: 40px;
     }
     .article img {
         width: 35%;      
@@ -207,8 +218,12 @@
         font-size: 35px;
         transform: translateX(43%);
     }
+    .return i.fas{
+        transform: scale(1.2);
+        transform: translateY(-6px)
+    }   
 }
-@media (min-width: 1930px) and (min-height:1024px){
+@media (min-width: 1930px) and (min-height:1080px){
     .article h2{
         font-size: 110px; 
     }
