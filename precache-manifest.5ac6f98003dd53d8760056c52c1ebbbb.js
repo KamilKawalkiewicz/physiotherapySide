@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/physiotherapySide/./static/media/sunblock_640.b5bafd96.jpg"
   },
   {
-    "revision": "08e3a6b6b069a54acc1d",
-    "url": "/physiotherapySide/./static/css/main.000af63c.chunk.css"
+    "revision": "d7dede6af65db5ebd111",
+    "url": "/physiotherapySide/./static/css/main.c31fb361.chunk.css"
   },
   {
     "revision": "037d501b686bfd162447",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/physiotherapySide/./static/media/pain_640.24992b3d.jpg"
   },
   {
-    "revision": "08e3a6b6b069a54acc1d",
-    "url": "/physiotherapySide/./static/js/main.08e3a6b6.chunk.js"
+    "revision": "d7dede6af65db5ebd111",
+    "url": "/physiotherapySide/./static/js/main.d7dede6a.chunk.js"
   },
   {
     "revision": "035b599effa1c97d83603854543caf3a",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/physiotherapySide/./static/media/AnatomyImg.1054e6c5.png"
   },
   {
-    "revision": "40468817546ac791fabe002e7c803750",
+    "revision": "610741513b8486129cbfa373295c83c6",
     "url": "/physiotherapySide/./index.html"
   }
 ];
