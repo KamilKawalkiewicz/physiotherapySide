@@ -161,6 +161,16 @@ nav.navigation{
   transition: .4s 
 } 
 }
+@media (min-width: 1366px) and (min-height: 1024px){
+  .navigation a{
+    height: 8vh;
+    font-size: 25px;
+  }
+  nav.navigation{
+    height: 8vh;
+    line-height: 8vh;
+  }
+}
 @media (min-width: 1440px) and (min-height: 900px){
   .navigation a{
     height: 8vh;
@@ -179,6 +189,16 @@ nav.navigation{
   nav.navigation{
     height: 10vh;
     line-height: 10vh;
+  }
+}
+@media (min-width: 1600px) and (min-height: 900px){
+  .navigation a{
+    height: 9vh;
+    font-size: 35px;
+  }
+  nav.navigation{
+    height: 9vh;
+    line-height: 9vh;
   }
 }
 @media (min-width: 1920px) and (min-height:1080px){

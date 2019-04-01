@@ -43,9 +43,15 @@ overflow-x: hidden
         height: 35vh;
         }
 }
+@media (min-width: 375px) and (min-height:667px){
+    .slider,.frame, .frame img{
+        height: 40vh;
+        }
+}
+
 @media (min-width: 375px) and (min-height:812px){
     .slider,.frame, .frame img{
-        height: 35vh;
+        height: 40vh;
         }
 }
 @media (min-width: 768px) and (min-height:783px){
@@ -81,6 +87,11 @@ overflow-x: hidden
     @media (min-width: 640px) and (orientation: landscape){
         .slider,.frame, .frame img{
             height: 80vh;
+            }
+    }
+    @media (min-width: 667px) and (orientation: landscape){
+        .slider,.frame, .frame img{
+            height: 85vh;
             }
     }
     @media (min-width: 812px) and (orientation: landscape){

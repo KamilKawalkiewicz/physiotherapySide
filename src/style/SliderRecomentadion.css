@@ -72,9 +72,24 @@
             height: 80vh    
         }
     }
+    @media (min-width: 384px) and (min-height:640px){
+        .slider-recomendation{
+            height: 90vh    
+        }
+    }
     @media (min-width: 411px) and (min-height:731px){
         .slider-recomendation{
-            height: 80vh    
+            height: 75vh    
+        }
+    }
+    @media (min-width: 411px) and (min-height:736px){
+        .slider-recomendation{
+            height: 70vh    
+        }
+    }
+    @media (min-width: 600px) and (min-height:900px){
+        .slider-recomendation{
+            height: 60vh    
         }
     }
     @media (min-width: 768px) and (min-height:783px){
@@ -172,7 +187,21 @@
 }
 
     /* Deskop */
-    
+    @media (min-width: 1024px) and (min-height: 600px){
+        .slider-recomendation{
+            height: 85vh    
+        }
+        .frame-recomendation h3{
+            font-size: 22px
+        }
+        .frame-recomendation q{
+            font-size: 20px
+        }
+        .frame-recomendation img {
+            height: 20vh;
+            width: 20vh;
+        }
+    }
     @media (min-width: 1024px) and (min-height: 768px){
         .slider-recomendation{
             height: 75vh    
@@ -200,6 +229,20 @@
     @media (min-width: 1366px) and (min-height: 768px){
         .slider-recomendation{
             height: 95vh    
+        }
+        .frame-recomendation h3{
+            font-size: 28px
+        }
+        .frame-recomendation q{
+            font-size: 25px
+        }
+        .frame-recomendation {
+            width: 30.5vw;
+        }
+    }
+    @media (min-width: 1366px) and (min-height: 1024px){
+        .slider-recomendation{
+            height: 85vh    
         }
         .frame-recomendation h3{
             font-size: 28px
@@ -243,6 +286,11 @@
             width: 30vw;
         }
     }
+    @media (min-width: 1680px) and (min-height: 1050px){
+        .slider-recomendation{
+            height: 80vh;      
+        }
+    }
     @media (min-width: 1920px) and (min-height:1080px){
         .slider-recomendation{
             height: 80vh;
@@ -261,6 +309,12 @@
         .frame-recomendation img {
             height: 22vh;
             width: 22vh;
+        }
+    }
+    @media (min-width: 1920px) and (min-height:1200px){
+        .slider-recomendation{
+            height: 70vh;
+            width: 92%;  
         }
     }
     @media (min-width: 1930px) and (min-height:1080px){

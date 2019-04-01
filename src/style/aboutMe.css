@@ -170,6 +170,12 @@ margin: 0 auto
     height: 75vh;
 }
 }
+@media (min-width: 1920px) and (min-height:1200px){
+    .aboutMe img {
+        width: 45%;
+        height: 65vh;
+    }
+}
 @media (min-width: 1930px) and (min-height:1080px){
     .aboutMe .tittle{
         font-size: 120px

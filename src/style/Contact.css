@@ -390,6 +390,13 @@ iframe{
       font-size: 25px
     }
 }
+@media (min-width: 1600px) and (min-height: 900px){
+  iframe{
+    width:60%;
+    height:500px;
+    border: none
+  }
+}
 @media (min-width: 1920px) and (min-height: 1080px){
   .contact h2{
     font-size: 60px
