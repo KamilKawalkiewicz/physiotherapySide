@@ -22,11 +22,6 @@ class Toggle extends Component {
         return (
             <div className={`panel ${this.state.isExpanded ? `showMore` : ``}`} onClick={this.handleToggle}>
                 <h1>{title}</h1>
-                {/* <div className="spans">
-                    {this.state.readMore ? <span className="activeHome"></span> : <span></span>}
-                    {this.state.readMore ? <span className="activeHome2"></span> : <span></span>}
-                </div> */}
-
                 {this.state.readMore ? <p className="showLess">Pokaż mniej</p> : <p className="showLess">Pokaż wiecej</p>}
                 <div className="panel-collapse" style={{ height: this.state.height + "px" }}>
                     <div className="panel-body" ref="inner">
