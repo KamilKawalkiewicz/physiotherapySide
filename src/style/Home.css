@@ -115,13 +115,16 @@ letter-spacing:  1.5px;
 
 /* Deskop */
 
-@media (min-width: 1024px) and (min-height: 768px){
+@media (min-width: 984px) and (min-height: 722px){
+    .panel-body , .lastP{
+        margin: 0 100px
+    }
     .panel-group .showLess{
         margin: 10px auto;
         text-transform: uppercase;
         cursor: pointer;
         letter-spacing:  1.5px;
-        width: 45%;
+        width: 20%;
         height: 50px;
         border: 1px outset grey;
         line-height: 48px;

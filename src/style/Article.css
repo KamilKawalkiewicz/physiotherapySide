@@ -136,20 +136,23 @@
 
 /* Deskop */
 
-@media (min-width: 1024px) and (min-height: 768px){
+@media (min-width: 984px) and (min-height: 722px){
+    .article{
+        margin:0 100px  
+    }
     .article h2{
         font-size: 45px; 
     }
     .article img {
-        width: 35%;
-        transform: translate(-50%, 0);      
+        width: 25%;
+        transform: translate(-50%, 10px);      
     }
     .article h3 {
         font-size: 35px;
     }
     .return {
         font-size: 30px;
-        transform: translateX(38%);
+        transform: translateX(42%);
     }
 }
 @media (min-width: 1280px) and (min-height: 1024px){

@@ -41,13 +41,16 @@
 
 /* Deskop */
 
-@media (min-width: 1366px) and (min-height: 768px) {
+@media (min-width: 984px) and (min-height: 722px) {
     .articleList h3{
-        font-size: 35px
+        font-size: 30px
     }
     .articleList ul{
         margin: 0px 0 25px 0
     }
+}
+.articleList li a:hover{
+    text-decoration-line: underline;
 }
 @media (min-width: 1440px){
     .articleList h3{

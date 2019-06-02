@@ -18,7 +18,6 @@ iframe{
   height:300px;
   border: none
 }
-
 .form-container{
   margin: 20px 0 20px 0;
   font-family: 'Montserrat', sans-serif;
@@ -28,7 +27,6 @@ iframe{
 }
 .showForm{
   height: 100%;
- 
   }
   .buttonForm{
     background: none;
@@ -58,7 +56,7 @@ iframe{
     margin: 5px 5px 15px 10px;
     font-size: 16px;
     padding: 6px 12px;
-    border-radius: 15px;
+    border-radius: 1px;
     outline: none;
 }
 .form_element label{
@@ -237,7 +235,10 @@ iframe{
 }
 
 /* Deskop */
-@media (min-width: 1024px) and (min-height: 768px){
+@media (min-width: 984px) and (min-height: 722px){
+  .form_element{
+    margin: 0 50px 
+  }
   .contact h2{
     font-size: 40px
       }
@@ -261,6 +262,10 @@ iframe{
     }
     .form_element:nth-child(5) label{
       width:27%;
+      transform: translate(160px)
+    }
+    .form_element:nth-child(5) input{
+      transform: translate(2vw)
     }
     .btn button{
       font-size: 25px;

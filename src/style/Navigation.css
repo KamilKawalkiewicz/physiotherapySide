@@ -116,7 +116,7 @@
 
 /* Deskop */
  /* Deskop Menu */
-@media (min-width: 1024px) and (min-height: 768px){
+@media (min-width: 984px) and (min-height: 722px){
    
 .burger {
     display: none;
@@ -169,6 +169,16 @@ nav.navigation{
   nav.navigation{
     height: 8vh;
     line-height: 8vh;
+  }
+}
+@media (min-width: 1368px) and (min-height: 937px){
+  .navigation a{
+    height: 5vh;
+    font-size: 25px;
+  }
+  nav.navigation{
+    height: 5vh;
+    line-height: 5vh;
   }
 }
 @media (min-width: 1440px) and (min-height: 900px){

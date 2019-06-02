@@ -18,7 +18,6 @@
     font-family: 'Montserrat', sans-serif;
     line-height: 1.4;
     text-align: left;
-
 }
 .aboutMe li{
     margin: 10px 20px 10px 20px;
@@ -91,7 +90,10 @@
 
 /* Deskop */
 
-@media (min-width: 1024px) and (min-height: 768px){
+@media(min-width: 984px) and (min-height: 722px){
+    .aboutMe{
+        margin:0 100px  
+    }
     .aboutMe .tittle{
         font-size: 35px
     }
@@ -102,7 +104,7 @@
         font-size: 40px
     }
     .aboutMe img {       
-        width: 45%;
+        width: 35%;
         height: 60vh;
     }
 }
@@ -112,10 +114,18 @@
         height: 60vh;
     }
 }
-@media (min-width: 1366px) and (min-height: 768px){
+
+@media (min-width: 1366px) and (min-height: 1024px){
     .aboutMe img {       
-        width: 40%;
-        height: 70vh;
+        width: 35%;
+        height: 50vh;
+        
+    }
+}
+@media (min-width: 1368px) and (min-height: 937px){
+    .aboutMe img {       
+        width: 35%;
+        height: 40vh;
         top: 50%;
         left: 50%;
         transform: translate(-50%,0%);
@@ -129,13 +139,6 @@
     }
     .aboutMe h1{
         font-size: 45px
-    }
-}
-@media (min-width: 1366px) and (min-height: 1024px){
-    .aboutMe img {       
-        width: 35%;
-        height: 50vh;
-        
     }
 }
 @media (min-width: 1440px) and (min-height: 900px){
