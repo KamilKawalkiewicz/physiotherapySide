@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/physiotherapySide/./static/media/AnatomyImg.1054e6c5.png"
   },
   {
-    "revision": "0a63cdabe54ebc72bd7b94149b3fc3de",
+    "revision": "68ae82b25cf2c221650d8dfe07c2a04f",
     "url": "/physiotherapySide/./index.html"
   }
 ];
