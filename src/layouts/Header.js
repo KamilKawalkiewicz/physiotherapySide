@@ -19,7 +19,7 @@ const properties =
         {
             image: `${pain}`,
             index: 1,
-            txt: "Dolegliwościom powiedź  nie!"
+            txt: "Dolegliwościom powiedz  nie!"
         },
         {
             image: `${pain2}`,
